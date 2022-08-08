@@ -1,0 +1,495 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+    }
+input[type=number] { -moz-appearance:textfield; }
+ 
+body{
+    background-color: #fbfbfb;
+    box-sizing: content-box;
+}
+
+.container-inputs > div {
+    color:rgba(0, 0, 0, 0.4);
+    width: 150;
+}
+
+header{
+    height: 60px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    background-color:#fbfbfb;
+    box-shadow: 0 4px 25px -22px black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container_header{
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo_section{
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+    width: 125px;
+    margin-left: 20px;
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+}
+
+.menu ul{
+    display: flex;
+    padding-top: 15px;
+}
+
+.menu ul li{
+    list-style: none;
+    padding: 0px 15px;
+}
+
+.menu ul li a{
+    font-size: 14px;
+    text-decoration: none;
+    color: #03045E;
+    transition: opacity 300ms;
+}
+
+.menu ul li a:hover{
+    opacity: 0.6;
+}
+
+.btn_header_contact{
+    height: 35px;
+    /* margin: 18px 0px; */
+    padding: 0px 25px;
+    border: none;
+    background-color:#3F4193;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    color: #FFFFFF;
+}
+
+.menu a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.btn_header_contact a:hover{
+    color: #FFFFFF;
+}
+
+.baner{
+    margin-top: 60px;
+    display:flex;
+    background: linear-gradient(94.29deg, #B5E4EE 0.83%, #CBEAF0 34.22%, rgba(216, 248, 255, 0.64) 66.32%, rgba(217, 243, 249, 0.19) 100%);
+    width: 100%;
+}
+
+.container-baner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    /* padding: 0px 20%; */
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.baner_img img{
+    width: 100%;
+} 
+
+.baner_text{
+    color: #03045E;
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 15px 0px;
+    text-align: center;
+}
+
+.baner_text p{
+    padding-top: 10px;
+    text-align: center;
+    
+}
+
+.baner_text h1{
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.btn_baner_contact{
+    margin-top: 5px;
+    padding: 8px 15px;
+    border: none;
+    background-color:#0098FF;
+    border-radius: 5px;
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    height: 40px;
+}
+
+.sections{
+    /* height: 420px; */
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 100px;
+}
+
+.sub-tittle{
+    font-size: 25px;
+    font-weight: 500;
+    margin-bottom: 60px;
+    padding-top: 80px;
+    /* margin: 25px 0px; */
+}
+
+
+/* SERVICIOS */
+#sec-servicios{
+    width: 100%!;
+}
+.servicios{
+    color: #03045E;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.servicios .container-servicios{
+    display: flex;
+    /* height: 424px; */
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: auto;
+    /* justify-content: space-between; */
+}
+
+.container-card{
+    position: relative;
+    margin:10px 10px;
+}
+
+.container-card li{
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: #fbfbfb;
+    background-color: #3F4193;
+    height: 45px;
+    width: 237px;
+    display: flex;
+    align-items: center;
+    background-color: rgba(73, 100, 123, 0.85);
+    text-decoration: none;
+    cursor: default;
+}
+
+.container-card img{
+    border-radius: 15px;
+}
+
+.container-card i{
+    margin: 0 20px;
+    font-size: 20px;
+}
+
+
+/* TRAYECTORIA */
+.trayectoria{
+    background-color: rgba(4, 49, 90, 0.55);
+    color: #fbfbfb;
+    
+}
+
+.container-trayectoria{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.doctor{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* margin-bottom: 15px; */
+}
+
+.doctor img{
+    margin: 0px 35px;
+    width: 185px;
+}
+
+.doctor p{
+    margin: 5px 0px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400px;
+}
+
+.texto-trayectoria{
+    padding: 0px 35px;
+    background-color: rgba(215, 227, 238, 1);
+    border-radius: 25px;
+    height: 188px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 15px 0px;
+}
+.texto-trayectoria p{
+    margin: 10px 0px;
+    color: #03045E;
+    font-size: 14px;
+}
+
+.texto-trayectoria p i{
+    margin-right: 10px;
+}
+
+.container-texto-trayectoria{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px 15px;
+}
+
+/* SOLICITAR SERVICIO */
+.solicitud{
+    background-color: rgba(245, 245, 245, 1);
+    color: #03045E;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sec-solicitud{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.sec-solicitud img{
+    max-width: 20rem;
+    margin: 25px;
+    /* margin: 0px 20px; */
+}
+
+.container-solicitud{
+    background-image: url(./assets/fondoSolicitud.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* margin: 0px 20px; */
+    border-radius: 35px;
+    max-width: 25rem;
+    margin: 0px 15px;
+
+}
+
+.formulario{
+    background-color: rgba(94, 123, 149, 0.72);
+    border-radius: 35px;
+    display: flex;
+    padding: 25px 20px;
+    position: relative;
+    top: 0px;
+    left: 0px;
+}
+
+.container-inputs{
+    padding: 15px;
+    margin-bottom: 15px;
+}
+
+.button_enviar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.conatiner-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* .form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 0px;
+} */
+
+/* .redes{
+    display: flex;
+    flex-direction: column;
+    color: #fbfbfb;
+}
+
+.redes i{
+    color: #fbfbfb;
+    margin: 15px 0px;
+} */
+
+/*.img-fondo img{
+    width: 100%;
+    border-radius: 35px;
+} */
+
+
+/* CASOS DE EXITO */
+.casos-exito{
+    color: #fbfbfb;
+    background-color: rgba(4, 49, 90, 0.55);
+}
+
+.container-casos{
+    display: flex;
+    /* height: 424px; */
+    width: 100%;
+    margin: auto;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.container-card p{
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: #fbfbfb;
+    background-color: #3F4193;
+    height: 45px;
+    width: 324px;
+    display: flex;
+    align-items: center;
+    background-color: rgba(73, 100, 123, 0.85);
+    text-decoration: none;
+    padding-left: 15px;
+}
+
+.container-card-casos{
+    box-shadow: 0px 1px 10px rgba(255, 255, 255, 0.2);
+    transition: all 400ms ease;
+    /* transition: width 3s, height 3s; */
+}
+
+.container-card-casos:hover{
+    box-shadow: 5px 5px 20px rgba(255, 255, 255, 0.4);
+    transform: translateY(-3%);
+}
+
+.container-card-casos img{
+    width: 324px;
+    height: 216px;
+}
+
+
+/* FOOTER */
+footer{
+    background-color: #fbfbfb;
+    display: flex;
+    color: #03045E;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    padding-top: 25px;
+    font-size: 14px;
+    margin: auto;
+}
+
+.container-footer{
+    padding-top: 25px;
+    max-width: 950px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: auto;
+    /* justify-content: center; */
+}
+
+.section-cardio-center{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section-cardio-center .redes{
+    margin:15px 0px;
+}
+
+.section-cardio-center .redes a{
+    color:#03045E;
+}
+
+.section-cardio-center i{
+    margin: 10px;
+}
+
+.horario-atencion{
+    margin-inline: 50px;
+    /* margin: 0px 15rem; */
+}
+
+.secciones-landing{
+    display: flex;
+    flex-direction: column;
+    
+}
+.secciones-landing a{
+    text-decoration: none;
+    color: #03045E;
+    margin: 5px;
+}
+
+@media (max-width: 800px){
+    .menu{
+        display: none;
+    }
+    .secciones-landing{
+        display: none;
+    }
+}
